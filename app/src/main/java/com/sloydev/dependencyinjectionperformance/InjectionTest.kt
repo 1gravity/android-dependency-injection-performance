@@ -17,10 +17,10 @@ import com.sloydev.dependencyinjectionperformance.koin.koinKotlinModule
 import org.kodein.di.Kodein
 import org.kodein.di.direct
 import org.kodein.di.erased.instance
-import org.koin.core.KoinComponent
+import org.koin.core.component.KoinComponent
+import org.koin.core.component.get
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
-import org.koin.core.get
 import org.rewedigital.katana.Component
 import org.rewedigital.katana.Katana
 import org.rewedigital.katana.android.environment.AndroidEnvironmentContext

@@ -2,7 +2,7 @@ package com.sloydev.dependencyinjectionperformance.katana
 
 import com.sloydev.dependencyinjectionperformance.FibonacciJava
 import org.rewedigital.katana.Module
-import org.rewedigital.katana.dsl.compact.factory
+import org.rewedigital.katana.dsl.factory
 import org.rewedigital.katana.dsl.get
 
 val katanaJavaModule = Module("katanaJavaModule") {
